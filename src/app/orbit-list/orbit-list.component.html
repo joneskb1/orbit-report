@@ -1,9 +1,8 @@
 <h3>Orbit Report</h3>
 <table>
   <tr class="header-row">
-    <!-- on number 7 fix the click handlers for name and type  -->
-    <th class="sortable" (click)="Satellites.sort(name)">Name</th>
-    <th class="sortable" (click)="Satellites.sort(type)">Type</th>
+    <th class="sortable" (click)="sort('name')">Name</th>
+    <th class="sortable" (click)="sort('type')">Type</th>
     <th>Operational</th>
     <th>Orbit Type</th>
     <th>Launch Date</th>
